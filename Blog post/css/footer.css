@@ -1,0 +1,36 @@
+.footer{
+    width: 60vw;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(233, 238, 242);
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 100px;
+}
+.footer p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.social-media img{
+    width: 40px;
+    margin-top: 30px;
+
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Instegram{
+    margin-left: 20px;
+}
+.Email{
+    margin-left: 20px;
+}
+.Facbook{
+    margin-left: 20px;
+}
+span{
+    font-weight: bold;
+}
+

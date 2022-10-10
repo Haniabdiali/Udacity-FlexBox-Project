@@ -1,0 +1,94 @@
+
+
+.profile-image{
+    width: 200px;
+    border-radius: 50%;
+
+    
+    
+}
+.box{
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    background-color: #f1efef;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+.post{
+
+    font-size: 27px;
+    text-align: left;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.topic{
+    font-size: 40px;
+    text-align: left;
+}
+.username-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.date{
+    margin-left: 20px;
+}
+.icons img{
+    width: 30px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+    font-size: 20px;
+    font-weight: bold; 
+}
+.like{
+    margin-left: 20px;
+}
+.share{
+    margin-right: 40px;
+}
+.post-image{
+    width: 810px;
+    margin-left: -20px;
+}
+.subscrip{
+    width: 500px;
+    height: 40px;
+    border: none;
+    background-color: #e0dcdc;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+.line{
+    width: 750px;
+    height: 2px;
+    background-color: black;
+    opacity: 0.2;
+    margin-top: 50px;
+}
+.topic2{
+    text-align: left;
+}
+a:hover{
+    color: blue;
+
+}

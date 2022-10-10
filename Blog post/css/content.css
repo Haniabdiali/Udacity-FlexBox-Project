@@ -1,0 +1,101 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.box img{
+    width: 130px;
+    border-radius: 50%;
+    
+    
+}
+.box{
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    background-color: #f1efef;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.post{
+    margin-top: 5px;
+    font-size: 27px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.topic{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.username-date{
+    display: flex;
+    margin-top: 10px;
+}
+.date{
+    margin-left: 20px;
+}
+.icons img{
+    width: 30px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 20px;  
+}
+.like{
+    margin-left: 20px;
+}
+.share{
+    margin-right: 40px;
+}
+
+/* TODO: Mobile responsive */
+
+@media (min-width: 360px) and (max-width: 600px){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 0;
+        margin-top: 70px;
+
+    }
+    .box{
+        width: 400px;
+    }
+}
+/* TODO: tablet responsive */
+
+@media (min-width: 600px) and (max-width: 1100px){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        align-items: center;
+    
+        margin-left: 0;
+        margin-top: 100px;
+
+    }
+    .box{
+        width: 500px;
+    }
+    .box1{
+        margin-top: 100px;
+
+    }
+}
